@@ -118,8 +118,6 @@ resource "aws_eks_cluster" "kube-tf-eks" {
  depends_on = [
   aws_iam_role.eks-iam-role,
  ]
-
- version = "1.31"
 }
 
 # IAM Role for Worker Nodes
